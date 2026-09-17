@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FPSIGN | Creative Designer</title>
+<title>Portfolio | FPSIGN</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
@@ -17,186 +17,129 @@ font-family:'Poppins',sans-serif;
 
 body{
 background:#0b0f14;
-color:white;
+color:#fff;
 }
 
-header{
-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
+.header{
+padding:80px 20px;
 text-align:center;
-padding:20px;
 background:linear-gradient(135deg,#0c5c54,#0b0f14);
 }
 
-.hero h1{
-font-size:4rem;
-font-weight:700;
+.header h1{
+font-size:60px;
 }
 
-.hero p{
-font-size:1.2rem;
+.header p{
+color:#ddd;
 margin-top:10px;
-color:#cfcfcf;
 }
 
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 30px;
-background:#0c5c54;
-color:white;
-text-decoration:none;
-border-radius:50px;
-}
-
-section{
-padding:80px 10%;
-}
-
-.section-title{
-font-size:2rem;
-margin-bottom:30px;
-color:#0c5c54;
-}
-
-.about p{
-max-width:700px;
-line-height:1.8;
-color:#ccc;
-}
-
-.services{
+.gallery{
+padding:60px 8%;
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:30px;
 }
 
-.card{
-background:#131a22;
-padding:25px;
-border-radius:15px;
+.project{
+background:#141a22;
+border-radius:18px;
+overflow:hidden;
 transition:.3s;
 }
 
-.card:hover{
+.project:hover{
 transform:translateY(-10px);
 }
 
-.card h3{
+.project img{
+width:100%;
+display:block;
+}
+
+.project-content{
+padding:20px;
+}
+
+.project-content h3{
 margin-bottom:10px;
 }
 
-.portfolio{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:25px;
-}
-
-.portfolio img{
-width:100%;
-border-radius:15px;
-}
-
-.contact{
-text-align:center;
-}
-
-.contact a{
-color:#0c5c54;
-text-decoration:none;
+.project-content p{
+color:#bbb;
+line-height:1.7;
 }
 
 footer{
-text-align:center;
 padding:30px;
-background:#131a22;
+text-align:center;
+background:#141a22;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-<div class="hero">
-<h1>FPSIGN</h1>
-<p>Creative Designer & Motion Graphics Artist</p>
-<a href="#portfolio" class="btn">View My Works</a>
-</div>
-</header>
-
-<section class="about">
-<h2 class="section-title">About Me</h2>
-<p>
-Hi, I'm Firos P, a creative designer specializing in Graphic Design,
-Brand Identity, Motion Graphics, Social Media Creatives and Print Design.
-I create visually engaging designs that help brands stand out.
-</p>
+<section class="header">
+<h1>My Portfolio</h1>
+<p>Selected Works by FPSIGN</p>
 </section>
 
-<section>
-<h2 class="section-title">Services</h2>
+<section class="gallery">
 
-<div class="services">
-
-<div class="card">
-<h3>Graphic Design</h3>
-<p>Creative posters, social media creatives and branding materials.</p>
+<div class="project">
+<img src="images/ithqan-branding.jpg" alt="">
+<div class="project-content">
+<h3>ITHQAN Branding</h3>
+<p>Logo design and branding presentation for Advanced Diploma in Theological Studies.</p>
+</div>
 </div>
 
-<div class="card">
-<h3>Brand Identity</h3>
-<p>Logo design, brand guidelines and visual systems.</p>
+<div class="project">
+<img src="images/calendar-2027.jpg" alt="">
+<div class="project-content">
+<h3>Calendar Design 2027</h3>
+<p>Creative promotional design for Katameri Calendar launch.</p>
+</div>
 </div>
 
-<div class="card">
-<h3>Motion Graphics</h3>
-<p>After Effects animations and promotional videos.</p>
+<div class="project">
+<img src="images/calligraphy-award.jpg" alt="">
+<div class="project-content">
+<h3>Achievement Poster</h3>
+<p>Recognition poster for thematic calligraphy competition winner.</p>
+</div>
 </div>
 
-<div class="card">
-<h3>Video Editing</h3>
-<p>Professional editing for reels, events and promotions.</p>
+<div class="project">
+<img src="images/scholarship-winners.jpg" alt="">
+<div class="project-content">
+<h3>Scholarship Winners</h3>
+<p>Educational campaign design highlighting scholarship achievers.</p>
+</div>
 </div>
 
+<div class="project">
+<img src="images/logo-launch.jpg" alt="">
+<div class="project-content">
+<h3>Logo Launch Campaign</h3>
+<p>Premium launch poster for ITHQAN academic program branding.</p>
 </div>
-</section>
-
-<section id="portfolio">
-<h2 class="section-title">Portfolio</h2>
-
-<div class="portfolio">
-
-<img src="images/work1.jpg" alt="">
-<img src="images/work2.jpg" alt="">
-<img src="images/work3.jpg" alt="">
-<img src="images/work4.jpg" alt="">
-<img src="images/work5.jpg" alt="">
-<img src="images/work6.jpg" alt="">
-
 </div>
-</section>
 
-<section class="contact">
-<h2 class="section-title">Contact</h2>
+<div class="project">
+<img src="images/language-workshop.jpg" alt="">
+<div class="project-content">
+<h3>Language Workshop</h3>
+<p>Event branding and promotional poster design.</p>
+</div>
+</div>
 
-<p>Email:</p>
-<p><a href="mailto:firos@fpsign.in">firos@fpsign.in</a></p>
-
-<br>
-
-<p>Instagram:</p>
-<p><a href="https://instagram.com/fp__sign">@fp__sign</a></p>
-
-<br>
-
-<p>Website:</p>
-<p><a href="https://fpsign.in">fpsign.in</a></p>
 </section>
 
 <footer>
-© 2026 FPSIGN | All Rights Reserved
+© FPSIGN | Creative Designer
 </footer>
 
 </body>

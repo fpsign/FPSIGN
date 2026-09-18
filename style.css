@@ -63,3 +63,21 @@ footer{background:#08101f;padding:20px;text-align:center}
     text-decoration:none;
     border-radius:8px;
 }
+.service-icon{
+    font-size:40px;
+    color:#0c5c54;
+    margin-bottom:15px;
+    display:block;
+}
+
+.card{
+    background:#131f2d;
+    padding:25px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(12,92,84,.3);
+}

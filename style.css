@@ -9,13 +9,19 @@ nav a{color:white;margin-right:15px;text-decoration:none}
 footer{background:#08101f;padding:20px;text-align:center}
 .hero{
     height:100vh;
-    background-image:url("./images/portfolio%20intro.jpg");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ), url("images/portfolio-intro.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display:flex;
     align-items:center;
-    padding-left:8%;
+    justify-content:center;
+    text-align:center;
     color:white;
 }
 

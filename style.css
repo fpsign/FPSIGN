@@ -9,22 +9,19 @@ nav a{color:white;margin-right:15px;text-decoration:none}
 footer{background:#08101f;padding:20px;text-align:center}
 .hero{
     height:100vh;
-    background-image: linear-gradient(
-        rgba(0,0,0,0.4),
-        rgba(0,0,0,0.4)
-    ), url("images/portfolio-intro.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("images/portfolio-intro.png");
+    
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 
     display:flex;
     align-items:center;
-    justify-content:center;
-    text-align:center;
+    padding-left:8%;
     color:white;
 }
-
 .hero-content{
     max-width:650px;
 }

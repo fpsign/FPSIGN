@@ -33,7 +33,36 @@ footer{background:#08101f;padding:20px;text-align:center}
 .hero-content{
     max-width:650px;
 }
+.btn,
+.btn-outline{
+    display:inline-block;
+    padding:14px 32px;
+    margin-top:15px;
+    margin-right:10px;
+    border-radius:50px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:600;
 
+    background:rgba(255,255,255,0.12);
+    border:1px solid rgba(255,255,255,0.25);
+
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.25),
+        inset 0 1px 1px rgba(255,255,255,0.25);
+
+    transition:all .3s ease;
+}
+
+.btn:hover,
+.btn-outline:hover{
+    background:rgba(255,255,255,0.20);
+    border-color:rgba(255,255,255,0.4);
+    transform:translateY(-3px);
+}
 .hero h1{
     font-size:80px;
     font-weight:700;

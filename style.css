@@ -9,19 +9,27 @@ nav a{color:white;margin-right:15px;text-decoration:none}
 footer{background:#08101f;padding:20px;text-align:center}
 .hero{
     height:100vh;
-    background:
-    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+
+    background-image:
+    linear-gradient(
+        to right,
+        rgba(0,0,0,0.15),
+        rgba(0,0,0,0.35)
+    ),
     url("images/portfolio-intro.png");
-    
+
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 
     display:flex;
+    justify-content:flex-end;
     align-items:center;
-    padding-left:8%;
+
+    padding-right:10%;
     color:white;
 }
+
 .hero-content{
     max-width:650px;
 }
@@ -29,19 +37,17 @@ footer{background:#08101f;padding:20px;text-align:center}
 .hero h1{
     font-size:80px;
     font-weight:700;
-    margin-bottom:10px;
 }
 
 .hero h2{
     font-size:32px;
-    margin-bottom:15px;
-    font-weight:500;
+    margin-top:10px;
+    margin-bottom:20px;
 }
 
 .hero p{
-    font-size:20px;
-    line-height:1.7;
-    margin-bottom:30px;
+    font-size:18px;
+    line-height:1.8;
 }
 
 .btn{

@@ -9,7 +9,10 @@ nav a{color:white;margin-right:15px;text-decoration:none}
 footer{background:#08101f;padding:20px;text-align:center}
 .hero{
     height:100vh;
-    background:url("images/portfolio%20intro.jpg") center center/cover no-repeat;
+    background-image:url("./images/portfolio%20intro.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
     display:flex;
     align-items:center;
     padding-left:8%;
